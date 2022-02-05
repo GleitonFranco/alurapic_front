@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from "@angular/common/http";
+import {PhotoService} from "./photos/photo.service";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  title = 'alurapic';
+
 }
